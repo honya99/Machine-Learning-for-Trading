@@ -1,0 +1,203 @@
+<pre>--- Summary ---
+Tests passed: 0 out of 18
+
+--- Details ---
+Test #0: failed 
+Description: Test Case 01: Deterministic Tree (group: DTLearner)
+Traceback:
+  File "RTLearner.py", line 3, in <module>
+    import DTLearner as dt
+  File "BagLearner.py", line 8, in <module>
+    class BagLearner(object):
+  File "BagLearner.py", line 9, in BagLearner
+    def __init__(self, learner = dt.DTLearner, kwargs = {"leaf_size":1}, bags = 20, boost = False, verbose = False):
+AttributeError: module 'DTLearner' has no attribute 'DTLearner'
+
+Test #1: failed 
+Description: Test Case 02: Deterministic Tree (group: DTLearner)
+Traceback:
+  File "RTLearner.py", line 3, in <module>
+    import DTLearner as dt
+  File "BagLearner.py", line 8, in <module>
+    class BagLearner(object):
+  File "BagLearner.py", line 9, in BagLearner
+    def __init__(self, learner = dt.DTLearner, kwargs = {"leaf_size":1}, bags = 20, boost = False, verbose = False):
+AttributeError: module 'DTLearner' has no attribute 'DTLearner'
+
+Test #2: failed 
+Description: Test Case 03: Deterministic Tree (group: DTLearner)
+Traceback:
+  File "RTLearner.py", line 3, in <module>
+    import DTLearner as dt
+  File "BagLearner.py", line 8, in <module>
+    class BagLearner(object):
+  File "BagLearner.py", line 9, in BagLearner
+    def __init__(self, learner = dt.DTLearner, kwargs = {"leaf_size":1}, bags = 20, boost = False, verbose = False):
+AttributeError: module 'DTLearner' has no attribute 'DTLearner'
+
+Test #3: failed 
+Description: Test Case 04: Deterministic Tree (group: DTLearner)
+Traceback:
+  File "RTLearner.py", line 3, in <module>
+    import DTLearner as dt
+  File "BagLearner.py", line 8, in <module>
+    class BagLearner(object):
+  File "BagLearner.py", line 9, in BagLearner
+    def __init__(self, learner = dt.DTLearner, kwargs = {"leaf_size":1}, bags = 20, boost = False, verbose = False):
+AttributeError: module 'DTLearner' has no attribute 'DTLearner'
+
+Test #4: failed 
+Description: Test Case 01: Random Tree (group: RTLearner)
+Traceback:
+  File "RTLearner.py", line 3, in <module>
+    import DTLearner as dt
+  File "BagLearner.py", line 8, in <module>
+    class BagLearner(object):
+  File "BagLearner.py", line 9, in BagLearner
+    def __init__(self, learner = dt.DTLearner, kwargs = {"leaf_size":1}, bags = 20, boost = False, verbose = False):
+AttributeError: module 'DTLearner' has no attribute 'DTLearner'
+
+Test #5: failed 
+Description: Test Case 02: Random Tree (group: RTLearner)
+Traceback:
+  File "RTLearner.py", line 3, in <module>
+    import DTLearner as dt
+  File "BagLearner.py", line 8, in <module>
+    class BagLearner(object):
+  File "BagLearner.py", line 9, in BagLearner
+    def __init__(self, learner = dt.DTLearner, kwargs = {"leaf_size":1}, bags = 20, boost = False, verbose = False):
+AttributeError: module 'DTLearner' has no attribute 'DTLearner'
+
+Test #6: failed 
+Description: Test Case 03: Random Tree (group: RTLearner)
+Traceback:
+  File "RTLearner.py", line 3, in <module>
+    import DTLearner as dt
+  File "BagLearner.py", line 8, in <module>
+    class BagLearner(object):
+  File "BagLearner.py", line 9, in BagLearner
+    def __init__(self, learner = dt.DTLearner, kwargs = {"leaf_size":1}, bags = 20, boost = False, verbose = False):
+AttributeError: module 'DTLearner' has no attribute 'DTLearner'
+
+Test #7: failed 
+Description: Test Case 04: Random Tree (group: RTLearner)
+Traceback:
+  File "RTLearner.py", line 3, in <module>
+    import DTLearner as dt
+  File "BagLearner.py", line 8, in <module>
+    class BagLearner(object):
+  File "BagLearner.py", line 9, in BagLearner
+    def __init__(self, learner = dt.DTLearner, kwargs = {"leaf_size":1}, bags = 20, boost = False, verbose = False):
+AttributeError: module 'DTLearner' has no attribute 'DTLearner'
+
+Test #8: failed 
+Description: Test Case 01: Bagging (group: BagLearner)
+Traceback:
+  File "RTLearner.py", line 3, in <module>
+    import DTLearner as dt
+  File "BagLearner.py", line 8, in <module>
+    class BagLearner(object):
+  File "BagLearner.py", line 9, in BagLearner
+    def __init__(self, learner = dt.DTLearner, kwargs = {"leaf_size":1}, bags = 20, boost = False, verbose = False):
+AttributeError: module 'DTLearner' has no attribute 'DTLearner'
+
+Test #9: failed 
+Description: Test Case 02: Bagging (group: BagLearner)
+Traceback:
+  File "RTLearner.py", line 3, in <module>
+    import DTLearner as dt
+  File "BagLearner.py", line 8, in <module>
+    class BagLearner(object):
+  File "BagLearner.py", line 9, in BagLearner
+    def __init__(self, learner = dt.DTLearner, kwargs = {"leaf_size":1}, bags = 20, boost = False, verbose = False):
+AttributeError: module 'DTLearner' has no attribute 'DTLearner'
+
+Test #10: failed 
+Description: Test Case 03: Bagging (group: BagLearner)
+Traceback:
+  File "RTLearner.py", line 3, in <module>
+    import DTLearner as dt
+  File "BagLearner.py", line 8, in <module>
+    class BagLearner(object):
+  File "BagLearner.py", line 9, in BagLearner
+    def __init__(self, learner = dt.DTLearner, kwargs = {"leaf_size":1}, bags = 20, boost = False, verbose = False):
+AttributeError: module 'DTLearner' has no attribute 'DTLearner'
+
+Test #11: failed 
+Description: Test Case 04: Bagging (group: BagLearner)
+Traceback:
+  File "RTLearner.py", line 3, in <module>
+    import DTLearner as dt
+  File "BagLearner.py", line 8, in <module>
+    class BagLearner(object):
+  File "BagLearner.py", line 9, in BagLearner
+    def __init__(self, learner = dt.DTLearner, kwargs = {"leaf_size":1}, bags = 20, boost = False, verbose = False):
+AttributeError: module 'DTLearner' has no attribute 'DTLearner'
+
+Test #12: failed 
+Description: Test Case 05: Bagging (group: BagLearner)
+Traceback:
+  File "RTLearner.py", line 3, in <module>
+    import DTLearner as dt
+  File "BagLearner.py", line 8, in <module>
+    class BagLearner(object):
+  File "BagLearner.py", line 9, in BagLearner
+    def __init__(self, learner = dt.DTLearner, kwargs = {"leaf_size":1}, bags = 20, boost = False, verbose = False):
+AttributeError: module 'DTLearner' has no attribute 'DTLearner'
+
+Test #13: failed 
+Description: Test Case 06: Bagging (group: BagLearner)
+Traceback:
+  File "RTLearner.py", line 3, in <module>
+    import DTLearner as dt
+  File "BagLearner.py", line 8, in <module>
+    class BagLearner(object):
+  File "BagLearner.py", line 9, in BagLearner
+    def __init__(self, learner = dt.DTLearner, kwargs = {"leaf_size":1}, bags = 20, boost = False, verbose = False):
+AttributeError: module 'DTLearner' has no attribute 'DTLearner'
+
+Test #14: failed 
+Description: Test Case 07: Bagging (group: BagLearner)
+Traceback:
+  File "RTLearner.py", line 3, in <module>
+    import DTLearner as dt
+  File "BagLearner.py", line 8, in <module>
+    class BagLearner(object):
+  File "BagLearner.py", line 9, in BagLearner
+    def __init__(self, learner = dt.DTLearner, kwargs = {"leaf_size":1}, bags = 20, boost = False, verbose = False):
+AttributeError: module 'DTLearner' has no attribute 'DTLearner'
+
+Test #15: failed 
+Description: Test Case 08: Bagging (group: BagLearner)
+Traceback:
+  File "RTLearner.py", line 3, in <module>
+    import DTLearner as dt
+  File "BagLearner.py", line 8, in <module>
+    class BagLearner(object):
+  File "BagLearner.py", line 9, in BagLearner
+    def __init__(self, learner = dt.DTLearner, kwargs = {"leaf_size":1}, bags = 20, boost = False, verbose = False):
+AttributeError: module 'DTLearner' has no attribute 'DTLearner'
+
+Test #16: failed 
+Description: InsaneLearner Test Case (group: InsaneLearner)
+Traceback:
+  File "RTLearner.py", line 3, in <module>
+    import DTLearner as dt
+  File "BagLearner.py", line 8, in <module>
+    class BagLearner(object):
+  File "BagLearner.py", line 9, in BagLearner
+    def __init__(self, learner = dt.DTLearner, kwargs = {"leaf_size":1}, bags = 20, boost = False, verbose = False):
+AttributeError: module 'DTLearner' has no attribute 'DTLearner'
+
+Test #17: failed 
+Description: Random Classname Test Case (group: RandomName)
+Traceback:
+  File "RTLearner.py", line 3, in <module>
+    import DTLearner as dt
+  File "BagLearner.py", line 8, in <module>
+    class BagLearner(object):
+  File "BagLearner.py", line 9, in BagLearner
+    def __init__(self, learner = dt.DTLearner, kwargs = {"leaf_size":1}, bags = 20, boost = False, verbose = False):
+AttributeError: module 'DTLearner' has no attribute 'DTLearner'
+
+</pre>
